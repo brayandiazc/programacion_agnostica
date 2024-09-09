@@ -6,9 +6,6 @@ Explora el paradigma de la programación agnóstica a lenguajes con ejemplos en 
 
 "Programación Agnóstica" es un proyecto educativo que proporciona ejemplos de cómo se pueden implementar diversos problemas de programación en diferentes lenguajes como Python, Java, Ruby, JavaScript, Dart y Swift. El objetivo es demostrar que muchos conceptos de programación son universales y pueden ser aplicados independientemente del lenguaje utilizado.
 
-![Ejemplo](imagenes/ejemplo.png)
-_Ejemplo de código en Python implementando una solución agnóstica_
-
 ## Prerrequisitos o Dependencias
 
 Para explorar los ejemplos y realizar los ejercicios propuestos en este proyecto, necesitarás:
