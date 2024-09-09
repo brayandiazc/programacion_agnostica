@@ -1,5 +1,9 @@
 # Programación Agnóstica
 
+---
+
+![GitHub repo size](https://img.shields.io/github/repo-size/brayandiazc/programacion_agnostica) ![GitHub contributors](https://img.shields.io/github/contributors/brayandiazc/programacion_agnostica) ![GitHub last commit](https://img.shields.io/github/last-commit/brayandiazc/programacion_agnostica) ![GitHub issues](https://img.shields.io/github/issues/brayandiazc/programacion_agnostica) ![GitHub pull requests](https://img.shields.io/github/issues-pr/brayandiazc/programacion_agnostica)
+
 Explora el paradigma de la programación agnóstica a lenguajes con ejemplos en múltiples lenguajes de programación. Este proyecto busca educar a los desarrolladores sobre cómo aplicar conceptos de programación y resolver problemas comunes en varios lenguajes de programación, fomentando así una comprensión más profunda de los principios fundamentales de la programación.
 
 ## Descripción del Proyecto
