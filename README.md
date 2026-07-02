@@ -1,49 +1,110 @@
 # Programación Agnóstica
 
----
+Explora el paradigma de la programación agnóstica al lenguaje: un mismo concepto de
+programación implementado en múltiples lenguajes, para enfocarte en los principios
+por encima de la sintaxis.
 
-![GitHub repo size](https://img.shields.io/github/repo-size/brayandiazc/programacion_agnostica) ![GitHub contributors](https://img.shields.io/github/contributors/brayandiazc/programacion_agnostica) ![GitHub last commit](https://img.shields.io/github/last-commit/brayandiazc/programacion_agnostica) ![GitHub issues](https://img.shields.io/github/issues/brayandiazc/programacion_agnostica) ![GitHub pull requests](https://img.shields.io/github/issues-pr/brayandiazc/programacion_agnostica)
+![GitHub repo size](https://img.shields.io/github/repo-size/brayandiazc/programacion-agnostica)
+![GitHub contributors](https://img.shields.io/github/contributors/brayandiazc/programacion-agnostica)
+![GitHub last commit](https://img.shields.io/github/last-commit/brayandiazc/programacion-agnostica)
+![GitHub issues](https://img.shields.io/github/issues/brayandiazc/programacion-agnostica)
+![License](https://img.shields.io/badge/license-MIT-blue)
 
-Explora el paradigma de la programación agnóstica a lenguajes con ejemplos en múltiples lenguajes de programación. Este proyecto busca educar a los desarrolladores sobre cómo aplicar conceptos de programación y resolver problemas comunes en varios lenguajes de programación, fomentando así una comprensión más profunda de los principios fundamentales de la programación.
+## Tabla de Contenidos
 
-## Descripción del Proyecto
+- [Descripción](#descripción)
+- [Ejemplos incluidos](#ejemplos-incluidos)
+- [Requisitos Previos](#requisitos-previos)
+- [Cómo ejecutar los ejemplos](#cómo-ejecutar-los-ejemplos)
+- [Contribución](#contribución)
+- [Documentación](#documentación)
+- [Roadmap](#roadmap)
+- [Versionado](#versionado)
+- [Autor](#autor)
+- [Licencia](#licencia)
 
-"Programación Agnóstica" es un proyecto educativo que proporciona ejemplos de cómo se pueden implementar diversos problemas de programación en diferentes lenguajes como Python, Java, Ruby, JavaScript, Dart y Swift. El objetivo es demostrar que muchos conceptos de programación son universales y pueden ser aplicados independientemente del lenguaje utilizado.
+## Descripción
 
-## Prerrequisitos o Dependencias
+**Programación Agnóstica** es un proyecto educativo que muestra cómo diversos
+problemas y conceptos de programación pueden implementarse en distintos lenguajes —
+Python, JavaScript, Ruby, Java, Dart y Swift. El objetivo es demostrar que muchos
+conceptos son **universales** y se aplican independientemente del lenguaje,
+fomentando una comprensión más profunda de los fundamentos.
 
-Para explorar los ejemplos y realizar los ejercicios propuestos en este proyecto, necesitarás:
+## Ejemplos incluidos
 
-- Sistemas Operativos compatibles (por ejemplo, cualquier versión de Windows, macOS, o Linux).
-- Interpretes o compiladores para cada uno de los lenguajes de programación utilizados:
-  - Python 3.8 o superior
-  - Java 11 o superior
-  - Node.js 14 o superior (para JavaScript)
-  - Ruby 2.7 o superior
-  - Dart SDK
-  - Swift 5 o superior
-- Editores de texto o IDEs que soporten estos lenguajes (VSCode, IntelliJ, etc.).
+| Lenguaje   | Archivo                          | Comando de ejecución       |
+| ---------- | -------------------------------- | -------------------------- |
+| Python     | [`ventilador.py`](ventilador.py) | `python3 ventilador.py`    |
+| JavaScript | [`tiquete.js`](tiquete.js)       | `node tiquete.js`          |
+| Ruby       | [`servicio.rb`](servicio.rb)     | `ruby servicio.rb`         |
+| Java       | [`plato.java`](plato.java)       | `java plato.java`          |
+| Dart       | [`avion.dart`](avion.dart)       | `dart run avion.dart`      |
+| Swift      | [`carro.swift`](carro.swift)     | `swift carro.swift`        |
 
-## Contribuir
+## Requisitos Previos
 
-Si deseas contribuir al proyecto con nuevos ejemplos en otros lenguajes o mejorar los existentes, por favor revisa nuestras [guías de contribución](CONTRIBUTING.md).
+Un sistema operativo compatible (Windows, macOS o Linux) y el intérprete o
+compilador de cada lenguaje que quieras probar:
+
+- **Python** 3.8 o superior
+- **Node.js** 14 o superior (para JavaScript)
+- **Ruby** 2.7 o superior
+- **Java** 11 o superior
+- **Dart** SDK
+- **Swift** 5 o superior
+
+Un editor o IDE con soporte para estos lenguajes (VS Code, IntelliJ, etc.).
+
+## Cómo ejecutar los ejemplos
+
+```bash
+git clone https://github.com/brayandiazc/programacion-agnostica.git
+cd programacion-agnostica
+
+# Ejecuta cualquier ejemplo con el comando de su lenguaje
+python3 ventilador.py
+node tiquete.js
+ruby servicio.rb
+```
+
+## Contribución
+
+¿Quieres aportar un ejemplo en otro lenguaje o mejorar los existentes? Revisa la
+[Guía de Contribución](CONTRIBUTING.md) para conocer el flujo de trabajo, el formato
+de commits ([Conventional Commits](https://www.conventionalcommits.org/es/v1.0.0/))
+y el proceso de Pull Requests. Este proyecto se rige por un
+[Código de Conducta](CODE_OF_CONDUCT.md).
+
+## Documentación
+
+Toda la documentación vive en [`docs/`](docs/README.md):
+
+| Documento                                            | Responde a                      |
+| ---------------------------------------------------- | ------------------------------- |
+| [`docs/conventions/`](docs/conventions/README.md)    | ¿Cómo aportar y verificar?      |
+| [`docs/decisions/`](docs/decisions/README.md)        | ¿Por qué cada decisión?         |
+| [`docs/product/roadmap.md`](docs/product/roadmap.md) | ¿Hacia dónde va el proyecto?    |
+| [`docs/glossary.md`](docs/glossary.md)               | ¿Qué significa cada término?    |
+
+## Roadmap
+
+Visión y próximos pasos en [`docs/product/roadmap.md`](docs/product/roadmap.md).
+
+## Versionado
+
+Seguimos [Semantic Versioning](https://semver.org/lang/es/). Consulta las
+[etiquetas](https://github.com/brayandiazc/programacion-agnostica/tags) y el
+[CHANGELOG](CHANGELOG.md) para el historial de versiones.
 
 ## Autor
 
-- [Brayan Diaz C](https://github.com/brayandiazc)
+- **Brayan Diaz C** — [@brayandiazc](https://github.com/brayandiazc)
 
 ## Licencia
 
-Este proyecto está licenciado bajo la Licencia MIT - ve el archivo [LICENSE.md](LICENSE) para más detalles.
+Este proyecto está bajo la licencia [MIT](LICENSE).
 
 ---
 
-## Consejos Adicionales
-
-- Asegúrate de probar los ejemplos en diferentes sistemas operativos.
-- Incluye comentarios detallados en los ejemplos de código para ayudar a otros desarrolladores a entender cómo funciona cada solución.
-- Considera añadir diagramas o más visuales si el proyecto crece en complejidad.
-
----
-
-⌨️ con ❤️ por [Brayan Diaz C](https://github.com/brayandiazc) 😊
+⌨️ con ❤️ por [@brayandiazc](https://github.com/brayandiazc) 😊

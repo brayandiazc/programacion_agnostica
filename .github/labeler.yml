@@ -1,0 +1,43 @@
+# Auto-etiquetado de Pull Requests según los archivos modificados.
+
+documentation:
+  - changed-files:
+    - any-glob-to-any-file:
+      - "**/*.md"
+      - "docs/**/*"
+      - ".github/ISSUE_TEMPLATE/**/*"
+      - ".github/PULL_REQUEST_TEMPLATE.md"
+
+python:
+  - changed-files:
+    - any-glob-to-any-file: "**/*.py"
+
+javascript:
+  - changed-files:
+    - any-glob-to-any-file: "**/*.js"
+
+ruby:
+  - changed-files:
+    - any-glob-to-any-file: "**/*.rb"
+
+java:
+  - changed-files:
+    - any-glob-to-any-file: "**/*.java"
+
+dart:
+  - changed-files:
+    - any-glob-to-any-file: "**/*.dart"
+
+swift:
+  - changed-files:
+    - any-glob-to-any-file: "**/*.swift"
+
+ci-cd:
+  - changed-files:
+    - any-glob-to-any-file:
+      - ".github/workflows/**/*"
+      - ".github/dependabot.yml"
+
+github:
+  - changed-files:
+    - any-glob-to-any-file: ".github/**/*"
